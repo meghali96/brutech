@@ -1,0 +1,133 @@
+/* Header wrapper */
+.main-header-three {
+  padding: 5px 0 !important;   
+}
+
+/* Logo container */
+.main-header-three__logo {
+  display: flex;
+  align-items: center;   
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Logo image */
+.main-header-three__logo img {
+  height: 55px;   
+  width: auto;
+  display: block;
+}
+
+/* Menu links alignment */
+.main-header-three .main-menu__list > li > a {
+  padding: 20px 15px;   
+  line-height: 1.2;
+}
+/* Original CSS - Line ~47 in your CSS file */
+.main-slider .item {
+    position: relative;
+    padding-top: 110px;     /* Decrease this value to reduce top space */
+    padding-bottom: 195px;  /* Decrease this value to reduce bottom space */
+}
+
+/* Example: Reduced height version */
+.main-slider .item {
+    padding-top: 110px;     /* Reduced from 244px */
+    padding-bottom: 120px;  /* Reduced from 195px */
+}
+
+/* If you also have main-slider-two, modify this as well - Line ~298 */
+.main-slider-two .item {
+    padding-top: 264px;     /* Decrease this value */
+    padding-bottom: 190px;  /* Decrease this value */
+}
+
+/* If you also have main-slider-three, modify this as well - Line ~460 */
+.main-slider-three .item {
+    position: relative;
+    padding-top: 159px;     /* Decrease this value */
+    padding-bottom: 180px;  /* Decrease this value */
+    background-color: var(--crank-white);
+    z-index: 10;
+}
+.main-menu-four__btn-box .thm-btn {
+    border: 1px solid #FF9E0F !important;
+}
+.main-slider__title{
+    font-size: 64px;
+}
+.about-two {
+    padding: 90px 0 120px;
+}
+.about-four__text {
+    margin-bottom:15px;
+}
+.about-four__left {
+   position: relative;
+}
+
+.about-four__carousel .owl-nav {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   z-index: 10;
+}
+
+.about-four__carousel .owl-nav button {
+   position: absolute;
+   width: 38px;
+   height: 38px;
+   background:#FF9E0F;
+   border: none;
+   border-radius: 50%;
+   font-size: 18px;
+}
+
+.about-four__carousel .owl-prev {
+   left: -46px;
+}
+
+.about-four__carousel .owl-next {
+   right: -46px;
+}
+.about-four{
+    padding: 90px 0 50px;
+}
+.about-two {
+    padding: 90px 0 50px;
+}
+.section-title-two__title {
+    font-size: 30px !important;
+    line-height: 45px !important;
+}
+.section-title__title {
+    font-size: 35px !important;
+    line-height: 45px !important;
+}
+.about-two__tab-content-title {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.section-title-two__title.choose.title-animation {
+  font-size: 23px !important;
+}
+.site-footer-three__shape-1 {
+    background: none !important;
+}
+.site-footer-three__shape-2{
+    background: none !important;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .main-slider .item {
+        padding-top: 70px !important;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .about-two {
+        padding: 0px 0 90px !important;
+    }
+}
